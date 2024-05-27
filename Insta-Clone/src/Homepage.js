@@ -1,16 +1,16 @@
 import React from 'react'
 import "./homepage.css"
 import sidenav from './navigation/sidenav'
-import Timeline from './timeline/timeline'
+import timeline from './timeline/timeline'
 
-function Homepage() {
+function homepage() {
   return (
-    <div className='Homepage'>
-        <div className='Homepage_nav'>
-
-        </div>
-        <div className='Homepage_timeline'>
-
+    <div className='homepage'>
+      <div className='homepage_nav'>
+          <sidenav />
+      </div>
+        <div className='homepage_timeline'>
+           <timeline />
         </div>
     </div>
   )
